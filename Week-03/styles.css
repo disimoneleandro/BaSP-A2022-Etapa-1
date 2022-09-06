@@ -78,3 +78,128 @@ aside > p{
 aside > p > i{
 	margin-right: 7px;
 }
+
+nav > a{
+	width: 255px;
+	height: 35px;
+	border: solid white 2px;
+	display: block;
+	background-color: white;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: rgba(130, 128, 128, 0.549) 3px 3px;
+	font-weight: bold;
+	color: #41426F;
+	padding-top: 15px;
+	text-align: center;
+}
+
+nav > a:hover{
+	width: 255px;
+	height: 35px;
+	border: solid white 2px;
+	display: block;
+	background-color:#AACE9B;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: rgba(130, 128, 128, 0.549) 3px 3px;
+	font-weight: bold;
+	color: #41426F;
+	padding-top: 15px;
+	text-align: center;
+	transition: all .5s;
+}
+
+nav > a > i{
+	padding-right: 5px;
+	margin-left: -15px;
+}
+
+.nav-p1, .nav-p2{
+	border-bottom: solid #AACE9B 1px;
+	margin-right: 40px;
+    padding-bottom: 10px;
+}
+
+main{
+	float: right;
+	width: 80%;
+	background-color:white;
+	margin-top: 120px;
+	padding-left: 52px;
+	padding-right: 52px;
+}
+
+
+/*  First section begins  */
+.first-section{
+	margin-top: 70px;
+    padding-top: 55px;
+    border-top: solid #373867;
+    border-bottom: solid #373867 3px;
+    padding-bottom: 62px;
+	margin-left: 87px;
+}
+
+.first-section-div{
+	display: inline-block;
+    width: 366px;
+    margin-left: 41px;
+    height: 325px;
+    font-size: 16px;
+	margin-top: -22px;
+}
+
+
+.first-section-img{
+	display: inline-block;
+	float: right;
+}
+
+.first-section-btn{
+	display: block;
+    margin-left: 338px;
+    width: 147px;
+    height: 47px;
+    background-color: white;
+    border: none;
+    box-shadow: rgb(130 128 128 / 55%) 1px 4px 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+	margin-top: 22px;
+}
+
+.first-section-btn:hover{
+	display: block;
+    margin-left: 338px;
+    width: 147px;
+    height: 47px;
+    background-color: #41426F;
+    border: none;
+    box-shadow: rgb(130 128 128 / 55%) 1px 4px 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+	margin-top: 22px;
+	transition: all .5s;
+}
+
+.first-section-h2{
+	font-size: 27px;
+	font-weight:bold;
+	color: #373867;
+}
+
+.first-section-p1, .first-section-p2{
+	font-size: 18px;
+	color: #41426F;
+	font-weight: bold;
+}
+
+.first-section-h3{
+	font-size: 20px;
+	color: #373867;
+	margin-top: -6px;
+}
+/*  First section end  */
