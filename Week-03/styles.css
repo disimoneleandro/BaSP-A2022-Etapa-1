@@ -454,3 +454,67 @@ textarea{
     margin-bottom: 65px;
 }
 /*  Fourth section end  */
+
+/*  Five Section Begins  */
+.five-section{
+    margin-bottom: 155px;
+    padding-left: 0px;
+    border-top: solid #373867 3px;
+    margin-left: 87px;
+}
+
+.five-section-ul-1, .five-section-ul-2, .five-section-ul-3{
+	list-style: none;
+	padding-left: 0;
+}
+
+.five-section-div-1{
+	display: inline-block;
+    width: 365px;
+    margin-left: 28px;
+    border-right: solid #373867 3px;
+    margin-top: 40px;
+}
+
+.five-section-div-2{
+	display: inline-block;
+    width: 333px;
+    border-right: solid #373867 3px;
+    margin-left: 144px;
+}
+
+.five-section-div-3{
+	display: inline-block;
+    margin-left: 112px;
+}
+
+.five-section-h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: #373867;
+}
+
+.five-section-div-1 ul li {
+	margin-right: 10px;
+	font-size: 16px;
+	margin-top: 21px;
+    font-weight: bold;
+	color: #373867;
+}
+
+.five-section-div-2 ul li {
+	margin-right: 10px;
+	font-size: 16px;
+	margin-top: 21px;
+    font-weight: bold;
+	color: #373867
+}
+
+.five-section-div-3 ul li {
+	margin-right: 10px;
+	font-size: 16px;
+	margin-top: 21px;
+    font-weight: bold;
+	color: #373867
+}
+/*  Five Section End  */
