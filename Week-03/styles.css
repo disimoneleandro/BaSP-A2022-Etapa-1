@@ -242,3 +242,53 @@ main{
 	padding-left: 75px;
 }
 /*  Second section end  */
+
+/*  Third section begins  */
+.third-section{
+	border-top: solid #373867 3px;
+	border-bottom: solid #373867 3px;
+	margin-left: 87px;
+}
+
+.third-section-h2{
+	margin-left: 70px;
+    color: #373867;
+    font-size: 40px;
+	border-bottom: solid #373867 3px;
+	width: 398px;
+}
+
+.third-section-h4{
+	font-size: 22px;
+	color: #373867;
+	font-weight: bold;
+	margin-bottom: -18px;
+}
+
+.third-section-p{
+	color: #373867;
+	font-size: 20px;
+	margin-left: 28px;
+}
+
+
+.third-section-ul-1{
+	display: inline-block;
+	width: 40%;
+	list-style: none;
+	margin-left: 100px;
+}
+
+.third-section-ul-2{
+	display: inline-block;
+	width: 40%;
+	list-style: none;
+	margin-left: 22px;
+}
+
+.fa-caret-right{
+	float: left;
+	font-size: 25px;
+    margin-right: 15px;
+}
+/*  Third section end  */
