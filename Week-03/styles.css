@@ -518,3 +518,27 @@ textarea{
 	color: #373867
 }
 /*  Five Section End  */
+
+/*  Footer Begins  */
+.footer{
+	background-color:#41426F;
+	width: 80%;
+    float: right;
+}
+
+.footer-img-container{
+	text-align: center;
+    padding: 10p;
+    padding-top: 20px;
+}
+
+.footer-p{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer div img{
+	margin-right: 90px;
+}
+/*Footer end*/
