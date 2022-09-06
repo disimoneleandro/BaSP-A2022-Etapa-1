@@ -203,3 +203,42 @@ main{
 	margin-top: -6px;
 }
 /*  First section end  */
+
+/*  Second section begins  */
+.second-section{
+	display: inline-block;
+	margin-left: 108px;
+	margin-top: 67px;
+	padding-bottom: 80px;
+}
+
+.second-section-img{
+	float: left;
+	margin-right: 15px;
+}
+
+.first-div-second-section{
+	display: inline-block;
+	width:45%;
+	margin-left: 161px;
+}
+
+.second-div-second-section{
+	display: inline-block;
+	width:45%;
+	margin-right: -127px;
+}
+
+.second-section-h3{
+	font-size: 30px;
+}
+
+
+.second-section-p{
+	color:#41426F;
+	font-size: 14px;
+	font-weight: bold;
+	width:50%;
+	padding-left: 75px;
+}
+/*  Second section end  */
