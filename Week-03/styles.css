@@ -418,3 +418,39 @@ textarea{
 	margin-left: 87px;
 }
 /*  Section form end  */
+
+/*  Fourth section begins  */
+.fourth-section{
+	padding-left: 73px;
+}
+
+.fourth-section-div-p{
+	margin-top: -60px;
+}
+
+.fourth-section-h2{
+	font-size: 30px;
+    margin-left: 28px;
+    padding-top: 25px;
+    color: #373867;
+    font-weight: bold;
+}
+
+.fourth-section-p1{
+	display: inline-block;
+    width: 25%;
+    font-size: 24px;
+    margin-left: 25px;
+    color: #373867;
+	padding-right: 172px;
+}
+
+.fourth-section-p2{
+	font-size: 25px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 0;
+    color: #373867;
+    margin-bottom: 65px;
+}
+/*  Fourth section end  */
