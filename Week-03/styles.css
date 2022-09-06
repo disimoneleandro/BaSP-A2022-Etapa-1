@@ -292,3 +292,129 @@ main{
     margin-right: 15px;
 }
 /*  Third section end  */
+
+/*  Section form begins  */
+form{
+	background-color:#AACE9B;
+	width: 572px;
+	height: 466px;
+	border-radius: 20px;
+	margin-left: 299px;
+	display: inline-block;
+	margin-top: 35px;
+}
+
+.form-name{
+	display: inline-block;
+	width: 45%;
+	margin-left: 23px;
+}
+
+.form-email{
+	display: inline-block;
+	width: 45%;
+	margin-left: 5px;
+}
+
+.form-name-label{
+	color:#373867;
+	font-weight: bold;
+}
+
+.form-email-label{
+	color:#373867;
+	font-weight: bold;
+}
+
+.form-name-input{
+	width: 251px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    border: solid 1px #373867;
+	margin-top: 5px;
+}
+
+.form-email-input{
+	width: 251px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    border: solid 1px #373867;
+	margin-top: 5px;
+}
+
+.form-first-div{
+	margin-top: 31px;
+}
+
+.form-contact-area-select{
+	display: block;
+    width: 525px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    border: solid 1px #373867;
+    margin-left: 23px;
+	margin-top: 5px;
+}
+
+.form-contact-area-label{
+	color: #373867;
+    font-weight: bold;
+	margin-left: 23px;
+}
+
+.form-second-div{
+	margin-top: 17px;
+}
+
+textarea{
+	display: block;
+    width: 525px;
+    height: 98px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    border: solid 1px #373867;
+    margin-left: 23px;
+    margin-top: 5px;
+}
+
+.form-third-div{
+	margin-top: 80px;
+}
+
+.form-textarea-label{
+	color: #373867;
+    font-weight: bold;
+	margin-left: 23px;
+}
+
+.form-send-btn{
+	width: 255px;
+	height: 50px;
+	margin-left: 298px;
+	margin-top: 25px;
+	border-radius: 5px;
+	color: #41426F;
+	font-weight: bold;
+}
+
+.form-send-btn:hover{
+	width: 255px;
+	height: 50px;
+	margin-left: 298px;
+	margin-top: 25px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	background-color: #41426F;
+	transition: all .5s;
+}
+
+.section-form{
+	border-bottom: solid #373867 3px;
+	padding-bottom: 35px;
+	margin-left: 87px;
+}
+/*  Section form end  */
