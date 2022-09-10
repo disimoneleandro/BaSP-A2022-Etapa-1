@@ -22,7 +22,20 @@ Become a Software Professional 2022
 Open folder "BaSP-A2022-Etapa-1 and open file "index.html".
 ```
 #
-## Description
+### Week to Week :
+```
+First-Week : Design interface of the entire application by using figma.
+
+Second-Week : Structure was made in hmtl of the project created in figma.
+
+Third-Week: Styles were given to the html structure only on desktop with properties position, display inline-block and float.
+
+Fourth-Week: Start the app layout in css using flexbox.
+
+
+```
+#
+### Description :
 ```
 This web development was created based on a bootcamp exercise practice obtained by Radium Rocket.
 ```
