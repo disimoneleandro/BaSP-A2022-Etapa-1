@@ -1,0 +1,22 @@
+.header{
+    display:flex;
+    background: #41426F;
+	width: 1024px;
+    height: 201px;
+}
+
+.header-title{
+	margin-top: 0;
+	font-size: 45px;
+	color: white;
+	padding-top: 43px;
+    padding-left: 32px;
+
+}
+
+.fa-bars{
+    color: white;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 45px;
+}
