@@ -5,7 +5,7 @@
 }
 
 .first-section-div{
-    width: 400px;
+    width: 360px;
     margin-left: 25px;
     font-size: 12px;
     border-top: solid #373867 2px;
@@ -27,17 +27,18 @@
     color: #41426F;
 }
 
-.first-section-img{
-    position: relative;
-    width: 400px;
+.first-section-div-img{
+    width: 360px;
+    height: 215px;
     margin-left: 25px;
-    margin-top: 20px;
+    border-radius: 5px;
+    background-image: url("../Assets/image-main.png");
+    background-position: center;
 }
 
 .first-section-btn{
-    position: absolute;
-    margin-left: 270px;
-    margin-top: 425px;
+    margin-left: 206px;
+    margin-top: 162px;
     width: 147px;
     height: 47px;
     background-color: white;
@@ -47,4 +48,56 @@
     font-weight: bold;
     color: black;
 }
+
+.first-section-btn:hover{
+    margin-left: 206px;
+    margin-top: 162px;
+    width: 147px;
+    height: 47px;
+    background-color: #AACE9B;
+    transition: all .5s;
+    border: none;
+    box-shadow: rgb(130 128 128 / 55%) 1px 4px 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
 /* First Section End */
+
+/* Second Section Begins */
+.second-section{
+    border-top: solid 2px #41426f;
+    margin-top: 51px;
+    width: 85%;
+    margin-left: 28px;
+}
+
+.first-div-second-section, .second-div-second-section, .third-div-second-section, .fourth-div-second-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27px;
+    width: 95%;
+    margin-left: 27px;
+}
+
+.second-section-h3{
+    margin-left: 5px;
+    font-size: 27px;
+    padding-top: 18px;
+}
+
+.second-section-img{
+    height: 60px;
+    padding-top: 30px;
+    margin-left: -25px;
+    margin-right: 4px;
+}
+
+.second-section-p{
+    margin-left: 45px;
+    margin-right: 25px;
+    margin-top: -24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #41426f;
+}
