@@ -6,7 +6,7 @@
 
 .first-section-div{
     width: 385px;
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 12px;
     border-top: solid #373867 2px;
     margin-top: 200px;
@@ -30,7 +30,7 @@
 .first-section-div-img{
     width: 385px;
     height: 215px;
-    margin-left: 20px;
+    margin-left: 15px;
     border-radius: 5px;
     background-image: url("../Assets/image-main.png");
     background-position: center;
@@ -150,7 +150,7 @@ li{
 .section-form{
     border-top: 2px solid #41426f;
     width: 90%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .form{
