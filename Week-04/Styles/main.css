@@ -145,3 +145,92 @@ li{
 
 
 /* Third Section End */
+
+/* Form */
+.section-form{
+    border-top: 2px solid #41426f;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.form{
+    background-color: #AACE9B;
+    width: 390px;
+    height: 405px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.form-name{
+	display: flex;
+    flex-direction: column;
+}
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-name-label, .form-email-label, .form-textarea-label,.form-contact-area-label {
+    color: #373867;
+    font-weight: bold;
+    margin-left: 19px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+.form-name-input, .form-email-input, .form-contact-area-select{
+    width: 350px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    border: solid 1px #373867;
+    margin-top: 5px;
+    margin-left: 17px;
+}
+
+
+
+.form-first-div{
+	
+}
+
+.text-area{
+    width: 350px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    border: solid 1px #373867;
+    margin-top: 5px;
+    margin-left: 17px;
+}
+
+
+
+.form-second-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-third-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-send-btn{
+	width: 100px;
+    height: 24px;
+    margin-left: 272px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #41426F;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+}
+
+
+
+/* Form End */
