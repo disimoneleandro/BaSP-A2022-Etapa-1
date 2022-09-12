@@ -191,12 +191,6 @@ li{
     margin-left: 17px;
 }
 
-
-
-.form-first-div{
-	
-}
-
 .text-area{
     width: 350px;
     height: 85px;
@@ -231,6 +225,87 @@ li{
     border: none;
 }
 
-
-
 /* Form End */
+
+/* Fourth section begins */
+.fourth-section{
+    border-top: 2px solid #41426f;
+    width: 90%;
+    margin-left: 16px;
+    margin-top: 48px;
+}
+
+.fourth-section-h2{
+    padding-top: 15px;
+    color: #41426F;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.fourth-section-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.fourth-section-p1{
+    color: #41426f;
+    font-size: 13px;
+    margin-left: 20px;
+    line-height: 14px;
+}
+
+.fourth-section-p2{
+    color: #41426f;
+    font-size: 13px;
+    line-height: 14px;
+}
+/* Fourth Section End*/
+
+/* Five section begins */
+.five-section{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #41426f;
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.five-section-h2{
+    font-size: 35px;
+    font-weight: bold;
+    color:#41426F;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.five-section-div-2{
+    border-top: 2px solid #41426f;
+    margin-top: 30px;
+}
+
+.five-section-div-3{
+    border-top: 2px solid #41426f;
+    border-bottom: 2px solid #41426f;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.five-section-ul-1, .five-section-ul-2, .five-section-ul-3{
+    font-size: 22px;
+    color: #42416f;
+    margin-left: 63px;
+}
+
+.five-section-ul-1 > li{
+    margin-bottom: 15px;
+}
+
+.five-section-ul-2 > li{
+    margin-bottom: 15px;
+}
+
+.five-section-ul-3 > li{
+    margin-bottom: 15px;
+}
