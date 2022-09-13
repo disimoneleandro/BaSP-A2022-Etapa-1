@@ -252,12 +252,17 @@
 }
 
 .aside-input{
-	width: 178px;
+	width: 90%;
+}
+
+.nav{
+	display: flex;
+	flex-direction: column;
 }
 
 .nav-link{
-	width: 180px;
-    height: 30px;
+	width: 90%;
+    height: 35px;
 }
 
 .main{

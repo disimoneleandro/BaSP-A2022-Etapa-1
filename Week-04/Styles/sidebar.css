@@ -76,7 +76,7 @@ aside > p > i{
 }
 
 .nav-link:hover{
-	width: 255px;
+	width: 90%;
 	height: 35px;
 	border: solid white 2px;
 	display: block;
