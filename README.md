@@ -30,7 +30,7 @@ Second-Week : Structure was made in hmtl of the project created in figma.
 
 Third-Week: Styles were given to the html structure only on desktop with properties position, display inline-block and float.
 
-Fourth-Week: Start the app layout in css using flexbox.
+Fourth-Week: Start the app layout in css.Flexbox is implemented to make the design responsive for mobiles, laptops and desktops.
 
 
 ```

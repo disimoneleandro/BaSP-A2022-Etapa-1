@@ -1,6 +1,3 @@
-
-
-
 /* First Section Begins */
 .first-section{
     display:flex;
@@ -110,7 +107,6 @@
 /* End Second Section */
 
 /* Third section begins */
-
 .third-section{
     display: flex;
     flex-direction: column;
@@ -148,9 +144,8 @@ li{
 .fa-caret-right{
     padding-right: 5px;
 }
-
-
 /* Third Section End */
+
 
 /* Form */
 .section-form{
@@ -207,8 +202,6 @@ li{
     margin-left: 17px;
 }
 
-
-
 .form-second-div{
     display: flex;
     flex-direction: column;
@@ -230,8 +223,8 @@ li{
     font-size: 12px;
     border: none;
 }
-
 /* Form End */
+
 
 /* Fourth section begins */
 .fourth-section{
@@ -267,6 +260,7 @@ li{
     line-height: 14px;
 }
 /* Fourth Section End*/
+
 
 /* Five section begins */
 .five-section{
