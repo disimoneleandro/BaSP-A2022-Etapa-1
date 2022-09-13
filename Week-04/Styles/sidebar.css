@@ -5,8 +5,8 @@
 .aside{
 	position:fixed;
 	width: 20%;
+	height: 100%;
 	float: left;
-	height: 962px;
 	background-color: #41426F;
 	padding-left: 25px;
 	padding-top: 25px;
