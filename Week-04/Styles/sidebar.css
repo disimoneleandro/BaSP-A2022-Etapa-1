@@ -6,11 +6,10 @@
 	position:fixed;
 	width: 20%;
 	height: 100%;
-	float: left;
 	background-color: #41426F;
-	padding-left: 25px;
+	padding-left: 12px;
 	padding-top: 25px;
-	margin-top:120px;
+	margin-top: 90px;
 }
 
 .aside > h2{
@@ -23,11 +22,12 @@
 }
 
 .aside-input{
-	width: 251px;
-	height: 38px;
+	width: 90%;
+	height: 25px;
 	border-radius: 5px;
 	background-color: #393a65;
 	border: solid 1px white;
+	font-size: 13px;
 }
 
 div > i{
@@ -50,9 +50,9 @@ div > i{
 .aside-p{
 	color:white;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 13px;
 	margin-top: 25px;
-	padding-right: 23px;
+	padding-right: 10px;
 }
 
 
@@ -61,32 +61,34 @@ aside > p > i{
 }
 
 .nav-link{
-	width: 255px;
-	height: 35px;
+	width: 93%;
+	height: 20px;
 	border: solid white 2px;
 	display: block;
 	background-color: white;
-	margin-top: 25px;
+	margin-top: 20px;
 	border-radius: 5px;
-	box-shadow: rgba(130, 128, 128, 0.549) 3px 3px;
+	box-shadow: rgba(93, 93, 93, 0.549) 3px 3px;
 	font-weight: bold;
 	color: #41426F;
-	padding-top: 15px;
+	padding-top: 9px;
 	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
 }
 
 .nav-link:hover{
-	width: 90%;
-	height: 35px;
+	width: 93%;
+	height: 20px;
 	border: solid white 2px;
 	display: block;
 	background-color:#AACE9B;
-	margin-top: 25px;
+	margin-top: 20px;
 	border-radius: 5px;
 	box-shadow: rgba(130, 128, 128, 0.549) 3px 3px;
 	font-weight: bold;
 	color: #41426F;
-	padding-top: 15px;
+	padding-top: 9px;
 	text-align: center;
 	transition: all .5s;
 }
@@ -102,7 +104,11 @@ nav > a > i{
     padding-bottom: 10px;
 	color:white;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 13px;
 	margin-top: 25px;
-	padding-right: 23px;
+}
+
+.fa-magnifying-glass{
+	margin: 10px;
+    font-size: 12px;
 }

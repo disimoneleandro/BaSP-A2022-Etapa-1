@@ -1,7 +1,6 @@
-*{
-	font-family: 'Roboto Serif', serif;
+body{
+	font-family: 'Roboto',sans-serif;
 }
-
 
 @media (min-width: 768px){
 
@@ -28,11 +27,6 @@
     margin-top: 50px;
 }
 
-
-
-
-
-/* First Section begins */
 .first-section{
 	display: flex;
 	flex-direction: row;
@@ -54,28 +48,22 @@
 	margin-top: 220px;
 	margin-left: -175px;
 }
-/* First Section End */
 
-
-/* Second section begins */
 .second-section{
 	display:flex;
 	flex-direction: row;
-	width: 95%;
+	width: 90%;
 }
 
 .fourth-div-second-section{
 	margin-top: 40px;
 }
 
-/* Second Section End */
-
-/* Third section begins */
 .third-section{
 	display: flex;
     flex-direction: column;
     border-top: #41426f 2px solid;
-    width: 95%;
+    width: 90%;
     margin-left: 19px;
     margin-top: 40px;
 	margin-bottom: 50px;
@@ -84,7 +72,7 @@
 
 .third-section-h2{
 	border-bottom: solid 3px #42416f;
-    width: 44%;
+	width: 47%;
     padding-left: 0px;
     margin-left: 70px;
 }
@@ -96,13 +84,12 @@
 
 .third-section-ul-container{
 	margin-left: 25px;
+	display:flex;
 }
-/* Third Section End */
 
-/* Form Section begins */
 .section-form{
 	border-top: 2px solid #41426f;
-    width: 95%;
+    width: 90%;
     margin-left: 20px;
     display: flex;
     justify-content: center
@@ -140,32 +127,29 @@
 	margin-left: 325px;
     margin-top: 14px;
 }
-/* Form Section End */
 
-/* Fourth Section Begins */
 .fourth-section{
-	width: 95%;
+	width: 90%;
 }
 
 .fourth-section-container{
 	display: flex;
     flex-direction: column;
 	width: 80%;
-    padding-left: 70px;
+	margin-left: 70px;
 }
 
 .fourth-section-h2{
-	padding-left: 70px;
+	padding-left: 72px;
 
 }
-/* Five Section Begins */
 
 .five-section{
 	display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     border-top: 2px solid #41426f;
-    width: 95%;
+    width: 90%;
     margin-left: 20px;
 }
 
@@ -207,19 +191,10 @@
 .fa-play{
 	padding-right: 6px;
 }
-/* Five Section End */
-
 
 }
 
-
-
-
-
-
-
 @media (min-width: 1024px){
-
 
 .header{
     display:flex;
@@ -246,15 +221,15 @@
 }
 
 .aside-second-title{
-	padding-top: 55px;
+	    padding-top: 40px;
 }
 
 .aside-p{
-	margin-bottom: 70px;
+	margin-bottom: 1px;
 }
 
 .aside-input{
-	width: 90%;
+	width: 92%;
 }
 
 .nav{
@@ -263,16 +238,19 @@
 }
 
 .nav-link{
-	width: 90%;
-    height: 35px;
+	width: 93%;
+    height: 20px;
 }
 
 .main{
     display: flex;
     flex-direction: column;
     padding-left: 30px;
-    padding-right: 30px;
 	margin-left: 20%;
+}
+
+.third-section-ul-container{
+	display: flex;
 }
 
 .fourth-section-div{
@@ -288,16 +266,24 @@
 .fourth-section-p1{
 	color: #41426f;
     font-size: 20px;
-    width: 60%;
+    width: 40%;
 	line-height: 25px;
+	padding-top: 30px;
 }
 
 .fourth-section-p2{
 	color: #41426f;
     font-size: 18px;
-    margin-top: 35px;
+    margin-top: 15px;
 	line-height: 25px;
 	margin-left: 20px;
+}
+
+.image-about{
+	border-style: none;
+    height: 141px;
+    padding-top: 53px;
+    width: 308px;
 }
 
 .footer{
