@@ -141,6 +141,8 @@ li{
 }
 
 .section-form{
+    display: flex;
+    justify-content: center;
     border-top: 2px solid #41426f;
     width: 90%;
     margin-left: 10px;
