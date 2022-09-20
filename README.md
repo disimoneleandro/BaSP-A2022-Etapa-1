@@ -32,6 +32,8 @@ Third-Week: Styles were given to the html structure only on desktop with propert
 
 Fourth-Week: Start the app layout in css.Flexbox is implemented to make the design responsive for mobiles, laptops and desktops.
 
+Five-Week : This week we start practicing with javascript exercises and repair the css files from last week.
+
 
 ```
 #
