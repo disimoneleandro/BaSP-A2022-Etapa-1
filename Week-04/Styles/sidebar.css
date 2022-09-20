@@ -1,8 +1,5 @@
 .aside{
 	display: none;
-}
-
-.aside{
 	position:fixed;
 	width: 20%;
 	height: 100%;
@@ -19,6 +16,7 @@
 	color: white;
 	font-size: 35px;
 	border-bottom: solid 3px #AACE9B;
+	margin-bottom: 25px;
 }
 
 .aside-input{

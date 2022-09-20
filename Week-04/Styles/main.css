@@ -15,21 +15,26 @@
     font-size: 25px;
     font-weight: bold;
     color: #41426F;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .first-section-h3{
     font-size: 15px;
     color: #41426F;
+    margin-bottom: 12px;
 }
 
 .first-section-p1, .first-section-p2{
     color: #41426F;
+    margin-bottom: 15px;
 }
 
 .first-section-div-img{
     width: 385px;
     height: 215px;
     margin-left: 15px;
+    margin-top: 25px;
     border-radius: 5px;
     background-image: url("../Assets/image-main.png");
     background-position: center;
@@ -75,7 +80,7 @@
 .first-div-second-section, .second-div-second-section, .third-div-second-section, .fourth-div-second-section{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 27px;
+    margin-top: 15px;
     width: 95%;
     margin-left: 20px;
 }
@@ -83,12 +88,12 @@
 .second-section-h3{
     margin-left: 5px;
     font-size: 26px;
-    padding-top: 18px;
+    padding-top: 60px;
 }
 
 .second-section-img{
     height: 60px;
-    padding-top: 30px;
+    padding-top: 40px;
     margin-left: -25px;
     margin-right: 4px;
 }
@@ -96,7 +101,6 @@
 .second-section-p{
     margin-left: 45px;
     margin-right: 25px;
-    margin-top: -24px;
     font-size: 14px;
     font-weight: bold;
     color: #41426f;
@@ -113,9 +117,9 @@
 .third-section-h2{
     font-size: 32px;
     color: #41426f;
-    margin-left: 16px;
-    width: 85%;
-    padding-left: 30px;
+    width: 78%;
+    border-bottom: 3px solid #41426f;
+    margin-top: 20px;
 }
 
 li{
@@ -126,6 +130,8 @@ li{
     color:#41426F;
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .third-section-p{
@@ -144,7 +150,7 @@ li{
     display: flex;
     justify-content: center;
     border-top: 2px solid #41426f;
-    width: 90%;
+    width: 95%;
     margin-left: 10px;
 }
 
@@ -224,10 +230,11 @@ li{
 }
 
 .fourth-section-h2{
-    padding-top: 15px;
+    padding-top: 40px;
     color: #41426F;
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .fourth-section-div{
@@ -247,6 +254,7 @@ li{
     color: #41426f;
     font-size: 13px;
     line-height: 14px;
+    margin-top: 25px;
 }
 
 .five-section{
@@ -281,19 +289,29 @@ li{
 .five-section-ul-1, .five-section-ul-2, .five-section-ul-3{
     font-size: 22px;
     color: #42416f;
-    margin-left: 83px;
+    margin-left: 122px;
+    margin-top: 20px;
+
 }
 
 .five-section-ul-1 > li{
     margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .five-section-ul-2 > li{
     margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .five-section-ul-3 > li{
     margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.fa-play{
+    font-size: 15px;
+    margin-right: 5px;
 }
 
 
