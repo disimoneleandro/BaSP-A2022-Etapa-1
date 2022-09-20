@@ -32,4 +32,4 @@ var arrayEmpty = [];
 for (var i = 0; i < 10 ; i++) {
     arrayEmpty.push(i);
 }
-console.log(arrayEmpty);
+console.log("5-D : ",arrayEmpty);
