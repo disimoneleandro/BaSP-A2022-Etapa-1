@@ -1,8 +1,8 @@
 .aside{
 	display: none;
-	position:fixed;
-	width: 20%;
-	height: 100%;
+	flex: 1 0 20%;
+	/*width: 20%;
+	height: 100%;*/
 	background-color: #41426F;
 	padding-left: 12px;
 	padding-top: 25px;
