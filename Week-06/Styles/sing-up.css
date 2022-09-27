@@ -8,6 +8,9 @@
     padding: 20px;
     box-shadow: 0 5px 5px 0px #80808063;
     border-radius: 30px;
+    background-image: url(../Assets/img-sing-up.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .h2-main{
