@@ -55,7 +55,7 @@ inputLoginPassword.onfocus = function(){
 
 
 
-// Validate Button Login
+// Validate Button LogIn
 
 loginButton.onclick = function(e){
     e.preventDefault();
