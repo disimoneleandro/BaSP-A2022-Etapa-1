@@ -1,0 +1,320 @@
+body{
+	font-family: 'Roboto',sans-serif;
+}
+
+.flex-container{
+	display: flex;
+	width:100%;
+	height:100%;
+}
+
+.main-footer-container{
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	width:100%;
+}
+
+@media (min-width: 768px){
+
+.header{
+    display:flex;
+    background: #41426F;
+	width: 100%;
+    height: 120px;
+    position: fixed;
+}
+
+.header-title{
+	margin-top: 0;
+	font-size: 40px;
+	color: white;
+	padding-top: 43px;
+    padding-left: 15px;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 35px;
+    margin-left: 495px;
+    margin-top: 50px;
+}
+
+
+
+.first-section{
+	display: flex;
+	flex-direction: row;
+    align-items: flex-end;
+}
+
+.first-section-h2{
+	margin-top: 38px;
+}
+
+.first-section-div{
+	width: 50%;
+	padding-bottom: 55px;
+	margin-left: 20px;
+}
+
+.first-section-div-img{
+	margin-right: 20px;
+	height: 245px;
+}
+
+.first-section-btn{
+	margin-top: 197px;
+	margin-left: -175px;
+}
+
+.second-section{
+	display:flex;
+	flex-direction: row;
+	width: 90%;
+}
+
+.third-section{
+	display: flex;
+    flex-direction: column;
+    border-top: #41426f 2px solid;
+    width: 90%;
+    margin-left: 19px;
+    margin-top: 40px;
+	margin-bottom: 50px;
+	padding-top: 35px;
+}
+
+.third-section-h2{
+	border-bottom: solid 3px #42416f;
+	width: 47%;
+    padding-left: 0px;
+    margin-left: 70px;
+}
+
+.third-section-p{
+	margin-bottom: 30px;
+	padding-bottom: 1px;
+}
+
+.third-section-ul-container{
+	margin-left: 70px;
+	display:flex;
+	flex-direction: column;
+}
+
+.section-form{
+	border-top: 2px solid #41426f;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center
+}
+
+.form{
+	width: 600px;
+}
+
+.form-first-div{
+	display: flex;
+}
+
+.form-name-input, .form-email-input{
+	width: 270px;
+}
+
+.form-contact-area-select{
+	width: 95%;
+	height: 40px;
+}
+
+.form-third-div{
+	padding-top: 45px;
+}
+
+.text-area{
+	width: 93%;
+}
+
+.form-send-btn{
+	font-size: 15px;
+	width: 255px;
+    height: 50px;
+	margin-left: 325px;
+    margin-top: 14px;
+}
+
+.fourth-section{
+	width: 90%;
+}
+
+.fourth-section-container{
+	display: flex;
+    flex-direction: column;
+	width: 80%;
+	margin-left: 70px;
+}
+
+.fourth-section-h2{
+	padding-left: 72px;
+
+}
+
+.five-section{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 2px solid #41426f;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.five-section-h2{
+	font-size: 32px;
+    font-weight: bold;
+    color: #41426F;
+    margin-left: 48px;
+    margin-top: 35px;
+}
+
+.five-section-div-1{
+	width: 90%;
+    margin-top: 25px;
+    margin-right: 29px;
+}
+
+.five-section-div-2{
+	border-left: 2px solid #41426f;
+    width: 100%;
+    margin-top: 25px;
+	border-top: none;
+}
+
+.five-section-div-3{
+	border-left: 2px solid #41426f;
+	padding-bottom: 30px;
+    width: 100%;
+    margin-top: 25px;
+	border-top: none;
+	border-bottom: none;
+}
+
+.five-section-ul-1, .five-section-ul-2, .five-section-ul-3{
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.fa-play{
+	padding-right: 6px;
+}
+
+}
+
+@media (min-width: 1024px){
+
+.header{
+    display:flex;
+    background: #41426F;
+	width: 100%;
+    height: 120px;
+    position: fixed;
+}
+
+.header-title{
+	margin-top: 0;
+	font-size: 40px;
+	color: white;
+	padding-top: 43px;
+    padding-left: 15px;
+}
+
+.header > .fa-bars{
+	display: none;
+}
+
+.first-section-h2{
+	margin-top: 32px;
+}
+
+.aside{
+	display: initial;
+}
+
+.aside-second-title{
+	    padding-top: 40px;
+}
+
+.aside-p{
+	margin-bottom: 1px;
+}
+
+.aside-input{
+	width: 92%;
+}
+
+.nav{
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-link{
+	width: 93%;
+    height: 20px;
+}
+
+.third-section-ul-container{
+	display: flex;
+}
+
+.fourth-section-div{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fourth-section-h2{
+	margin-left: 20px;
+}
+
+.fourth-section-p1{
+	color: #41426f;
+    font-size: 20px;
+    width: 40%;
+	line-height: 25px;
+	padding-top: 30px;
+}
+
+.fourth-section-p2{
+	color: #41426f;
+    font-size: 18px;
+    margin-top: 15px;
+	line-height: 25px;
+	margin-left: 20px;
+}
+
+.image-about{
+	border-style: none;
+    height: 141px;
+    padding-top: 53px;
+    width: 308px;
+}
+
+.footer{
+    margin-top: 45px;
+}
+
+}
+
+.green-border {
+	border: solid 2px green;
+}
+
+.red-border {
+	border: solid 2px red;
+}
+
+.text-error{
+	color:red;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
