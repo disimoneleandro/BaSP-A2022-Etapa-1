@@ -44,5 +44,5 @@ Six-Week : This week javascript files were added with the logic of the login and
 This web development was created based on a bootcamp exercise practice obtained by Radium Rocket.
 ```
 ### GitHub Pages :
-```
-https://github.com/disimoneleandro/BaSP-A2022-Etapa-1
+
+https://disimoneleandro.github.io/BaSP-A2022-Etapa-1/Week-06/views/
