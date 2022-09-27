@@ -72,14 +72,20 @@ textArea.onfocus = function(){
 
 btnSendForm.onclick = function(e){
     e.preventDefault();
-    if(inpNameContact.value == ""){
-        alert("Please insert name");
+    if(inpNameContact.value == "" && inpEmailContact.value == "" && textArea.value == ""){
+        alert("Please complete fields");
+        inpNameContact.onblur();
+        inpEmailContact.onblur();
+        textArea.onblur();
     }else if(!emailExpression.test(inpEmailContact.value)){
         alert("Please insert a email correct");
+        inpEmailContact.onblur();
     }else if(textArea.value == ""){
         alert("Empty message, please complete this area");
+        textArea.onblur();
     }else if(textArea.value.length <= 3){
         alert(" Require min 4 letters");
+        textArea.onblur();
     }else{ alert("Name : " + inpNameContact.value + "\n" + "Email : " + inpEmailContact.value + "\n" + "Message : " + textArea.value )}
 }
 
