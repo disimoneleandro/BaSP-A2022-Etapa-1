@@ -44,7 +44,7 @@ inpName.onfocus = function(){
 inpLastName.onblur = function() {
     if(inpLastName.value.trim() == ""){
         inpLastName.classList.add("red-border");
-        inpSingUpError.innerHTML = "*Empty name";
+        inpSingUpError.innerHTML = "*Empty last name";
         inpLastName.insertAdjacentElement("afterend", inpSingUpError);
     }else if( inpLastName.value.length <= 3 ){
         inpLastName.classList.add("red-border");
@@ -374,7 +374,7 @@ function isChars(parameter) {
 //       }
 //     return false;
 // }
-// console.log(minFourthChars("prueba1"))
+// console.log(minFourthChars("asd51"))
 
 
 function hasNumbersAndChar(parameter) {
