@@ -9,9 +9,6 @@ var inputLoginError = document.createElement("p");
 inputLoginError.classList.add("text-error");
 
 
-
-//Validate Login Email
-
 inputLoginEmail.onblur = function() {
     if (inputLoginEmail.value == ""){
         inputLoginEmail.classList.add("red-border");
@@ -30,9 +27,6 @@ inputLoginEmail.onfocus = function(){
     inputLoginError.remove();
 }
 
-
-
-// Validate Login password
 
 inputLoginPassword.onblur = function() {
     if (inputLoginPassword.value == ""){
@@ -54,9 +48,6 @@ inputLoginPassword.onfocus = function(){
 }
 
 
-
-// Validate Button LogIn
-
 loginButton.onclick = function(e){
     e.preventDefault();
     if(inputLoginEmail.value == ""){
@@ -71,16 +62,9 @@ loginButton.onclick = function(e){
 }
 
 
-// Validate Button Back
-
 backButton.onclick = function(e){
     window.location.href="./index.html";
 }
-
-
-
-
-
 
 }
 
