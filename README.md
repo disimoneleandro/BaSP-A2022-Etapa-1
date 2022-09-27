@@ -34,6 +34,8 @@ Fourth-Week: Start the app layout in css.Flexbox is implemented to make the desi
 
 Five-Week : This week we start practicing with javascript exercises and repair the css files from last week.
 
+Six-Week : This week javascript files were added with the logic of the login and sing up sections with their respective validations.
+
 
 ```
 #
@@ -41,5 +43,6 @@ Five-Week : This week we start practicing with javascript exercises and repair t
 ```
 This web development was created based on a bootcamp exercise practice obtained by Radium Rocket.
 ```
-
-
+### GitHub Pages :
+```
+https://github.com/disimoneleandro/BaSP-A2022-Etapa-1
