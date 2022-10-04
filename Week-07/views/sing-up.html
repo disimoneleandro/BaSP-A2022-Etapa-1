@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles/reset.css">
+        <link rel="stylesheet" href="../Styles/login.css">
+        <link rel="stylesheet" href="../Styles/sing-up.css">
+        <link rel="stylesheet" href="../Styles/header.css">
+        <link rel="stylesheet" href="../Styles/sidebar.css">
+        <link rel="stylesheet" href="../Styles/main.css">
+        <link rel="stylesheet" href="../Styles/footer.css">
+        <link rel="stylesheet" href="../Styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d7e294fc4d.js" crossorigin="anonymous"></script>
+        <script src="../javascript/sing-up.js"></script>
+        <title>Trackgenix</title>
+    </head>
+    <body>
+        <header class="header">
+                <h1 class="header-title">Trackgenix</h1>
+                <i class="fa-solid fa-bars"></i>
+        </header>
+        <div class="flex-container">
+            <aside class="aside">
+                <h2 class="aside-title">Menu</h2>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="aside-input" type="text" placeholder="        Search">
+                </div>
+                <nav class="nav">
+                    <a href="./index.html" class="nav-link"><i class="fa-solid fa-house"></i>Home</a>
+                    <a href="./login.html"" class="nav-link"><i class="fa-solid fa-right-to-bracket"></i>LogIn</a>
+                    <a href="./sing-up.html" class="nav-link"><i class="fa-solid fa-person"></i>SingUp</a>
+                </nav>
+                <h3 class="aside-second-title">Get in touch</h3>
+                <p class="aside-p">
+                    Gigatech is always looking for talented software developers to join our team.
+                    If you are interested in working with us, please get in touch. We would be happy
+                    to discuss your experience and skills.
+                </p>
+                <p class="nav-p1"><i class="fa-regular fa-envelope"></i>trackgenix@gigatech.com</p>
+                <p class="nav-p2"><i class="fa-solid fa-phone"></i>415-200-0042</p>
+                <p class="nav-p3"><i class="fa-solid fa-house"></i>621 Taylor St.,San Francisco,CA</p>
+            </aside>
+            <div class="main-footer-container">
+                <main class="main-sing-up">
+                    <h2 class="h2-main">WELCOME TO TRACKGENIX!</h2>
+                    <h3 class="h3-main">Register Account</h3>
+                    <div class="sub-main-sing-up">
+                        <div class="sing-up-container">
+                            <div class="sing-up-col-1">
+                                <label for="name-sing-up" class="label-sing-up">Name</label>
+                                <input type="text" id ="name-sing-up" class="input-sing-up" placeholder=" Name">
+                                <label for="last-name-sing-up" class="label-sing-up">Last Name</label>
+                                <input type="text" id="last-name-sing-up" class="input-sing-up" placeholder=" Last Name">
+                                <label for="id-sing-up" class="label-sing-up">ID</label>
+                                <input type="text" id="id-sing-up" class="input-sing-up" placeholder=" ID">
+                                <label for="date-birth-sing-up" class="label-sing-up">Date of Birth</label>
+                                <input type="date" id="date-birth-sing-up" class="input-sing-up">
+                                <label for="phone-number-sing-up" class="label-sing-up">Phone Number</label>
+                                <input type="text" id="phone-number-sing-up" class="input-sing-up" placeholder=" Phone Number">
+                            </div>
+                            <div class="sing-up-col-2">
+                                <label for="address-sing-up" class="label-sing-up">Address</label>
+                                <input type="text" id="address-sing-up" class="input-sing-up" placeholder="  Address">
+                                <label for="city-sing-up" class="label-sing-up">City</label>
+                                <input type="text" id="city-sing-up" class="input-sing-up" placeholder=" City">
+                                <label for="address-code-sing-up" class="label-sing-up">Address Code</label>
+                                <input type="text" id="address-code-sing-up" class="input-sing-up" placeholder="  Address Code">
+                                <label for="email-sing-up" class="label-sing-up">Email</label>
+                                <input type="text" id="email-sing-up" class="input-sing-up" placeholder=" someone@someone.com">
+                                <label for="password-sing-up"" class="label-sing-up">Password</label>
+                                <input type="password" id="password-sing-up" class="input-sing-up" placeholder=" Password">
+                                <label for="repeat-password-sing-up" class="label-sing-up">Repeat Password</label>
+                                <input type="password" id="repeat-password-sing-up" class="input-sing-up" placeholder=" Repeat Password">
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <!-- <div class="sub-checkbox">
+                                <h2 class="h2-checkbox">Sex:</h2>
+                                <div class="div-inp-lbl-checkbox">
+                                    <input type="radio" id="male" class="inp-checkbox" name="sex">
+                                    <label for="male" class="lbl-checkbox">Male</label>
+                                </div>
+                                <div class="div-inp-lbl-checkbox">
+                                    <input type="radio" id="female" class="inp-checkbox" name="sex">
+                                    <label for="female" class="lbl-checkbox">Female</label>
+                                </div>
+                                <div class="div-inp-lbl-checkbox">
+                                    <input type="radio" id="male" class="inp-checkbox" name="sex">
+                                    <label for="other" class="lbl-checkbox">Other</label>
+                                </div>
+                                <div class="div-inp-lbl-checkbox">
+                                    <input type="checkbox" id="human" class="human">
+                                    <label for="other" class="lbl-checkbox">I'm a human</label>
+                                </div>
+                            </div> -->
+                            <div>
+                                <button id="btn-back-sing-up" class="btn-back-checkbox">Back</button>
+                                <button id="btn-sing-up" type="submit" class="btn-sing-up-checkbox">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="footer">
+                    <div class="footer-img-container">
+                        <img src="../Assets/facebook-icon.png" alt="facebook-icon">
+                        <img src="../Assets/instagram-icon.png" alt="instagram-icon">
+                        <img src="../Assets/twitter-icon.png" alt="twitter-icon">
+                    </div>
+                    <p class="footer-p">
+                        ©GigaTech Software Solutions SA. INC. ALL RIGHTS RESERVED.
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

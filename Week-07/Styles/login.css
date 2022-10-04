@@ -1,0 +1,114 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 235px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.login-img{
+    width: 224px;
+    height: 256px;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 255px;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px 0px #80808063;
+}
+
+.div-btn-login{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.login-h2{
+    color: #373867;
+    font-size: 24px;
+    font-weight: bold;
+    /*margin-top: 24px;*/
+    /*margin-bottom: 25px;*/
+}
+
+.input-login-email, .input-login-password{
+    width: 85%;
+    height: 35px;
+    background: #8080801f;
+    border-radius: 30px;
+    border: none;
+}
+
+.div-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.label-checkbox{
+    color: #515AAA;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-btn{
+    width: 150px;
+    height: 64px;
+    margin-top: 35px;
+    background:#49A37B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0px #80808063;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-btn:hover{
+    width: 150px;
+    height: 64px;
+    margin-top: 35px;
+    background:#09864d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0px #80808063;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.login-btn{
+    width: 150px;
+    height: 64px;
+    margin-top: 35px;
+    background:#41426F;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0px #80808063;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    width: 150px;
+    height: 64px;
+    margin-top: 35px;
+    background:#151634;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0px #80808063;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+}
