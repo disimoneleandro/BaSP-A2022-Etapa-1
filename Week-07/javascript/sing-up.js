@@ -218,7 +218,7 @@ inpEmail.onblur = function() {
 
     } else if(!emailExpression.test(inpEmail.value)){
         inpEmail.classList.add("red-border");
-        inpEmailError.innerHTML = "Please insert email valid";
+        inpEmailError.innerHTML = "*Please insert email valid";
         inpEmail.insertAdjacentElement("afterend", inpEmailError);
     } else{ inputArray[7] = inpEmail.value;
             inpEmail.classList.add("green-border");}
@@ -238,11 +238,11 @@ inpPassword.onblur = function() {
         inpPassword.insertAdjacentElement("afterend", inpPasswordError);
     }else if ( inpPassword.value.length < 8 || inpPassword.value.length > 20 ){
         inpPassword.classList.add("red-border");
-        inpPasswordError.innerHTML = "Password must be 8 and 20 characters";
+        inpPasswordError.innerHTML = "*Password must be 8 and 20 characters";
         inpPassword.insertAdjacentElement("afterend", inpPasswordError);
     }else if ( !hasNumbersAndChar(inpPassword.value)){
         inpPassword.classList.add("red-border");
-        inpPasswordError.innerHTML = "Only numbers and letters";
+        inpPasswordError.innerHTML = "*Only numbers and letters";
         inpPassword.insertAdjacentElement("afterend", inpPasswordError);
     }
     else{ inputArray[8] = inpPassword.value;
@@ -263,7 +263,7 @@ inpRepPassword.onblur = function() {
         inpRepPassword.insertAdjacentElement("afterend", inpRepPasswordError);
     }else if ( inpRepPassword.value.length < 8 || inpRepPassword.value.length > 20 ){
         inpRepPassword.classList.add("red-border");
-        inpRepPasswordError.innerHTML = "Password must be 8 and 20 characters";
+        inpRepPasswordError.innerHTML = "*Password must be 8 and 20 characters";
         inpRepPassword.insertAdjacentElement("afterend", inpRepPasswordError);
     }else if ( !hasNumbersAndChar(inpRepPassword.value)){
         inpRepPassword.classList.add("red-border");
@@ -313,9 +313,7 @@ function validateSingUp(name, lastName, id, birthDate, phoneNumber, adress, city
             for(i = 0; i<error.errors.length; i++){
                 alert(error.errors[i].msg);
             }
-            //alert(error.errors.msg + "\n" + "¡ Viene error del CATCH !");
         })
-
 }
 
 btnSingUp.onclick = function(e){

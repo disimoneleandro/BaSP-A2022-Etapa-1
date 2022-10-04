@@ -31,7 +31,7 @@ inputLoginEmail.onfocus = function(){
 
 
 inputLoginPassword.onblur = function() {
-    if (inputLoginPassword.value == ""){
+    if ( inputLoginPassword.value == "" ){
         inputLoginPassword.classList.add("red-border");
         inputEmailError.innerHTML = "* Empty Password";
         inputLoginPassword.insertAdjacentElement("afterend", inputEmailError);
@@ -39,9 +39,7 @@ inputLoginPassword.onblur = function() {
         inputLoginPassword.classList.add("red-border");
         inputEmailError.innerHTML = "Password must be 8 and 20 characters";
         inputLoginPassword.insertAdjacentElement("afterend", inputEmailError);
-    } else{ inputLoginPassword.classList.add("green-border");
-    }
-
+    } else{ inputLoginPassword.classList.add("green-border");}
 }
 
 inputLoginPassword.onfocus = function(){
@@ -60,11 +58,13 @@ function validateLogin(email, password){
                 return response.json();
             }
         })
-        .then(function(data){
-            alert(data.msg);
+       .then(function(data){
+            console.log(data.msg);
         })
         .catch(function(error){
-            alert(error.msg + "\n" + "¡ Email or Password Invalid !");
+            modal.style.display = "block";
+            modalContent.classList.add("modal-error");
+            pModal.innerHTML = " ¡ Email or Password Invalid !";
         })
 
 }
@@ -72,16 +72,34 @@ function validateLogin(email, password){
 loginButton.onclick = function(e){
     e.preventDefault();
     if(validateEmptyFields() == ""){
-        alert("Empty fields, please complete !");
+        modal.style.display = "block";
+        modalContent.classList.add("modal-error");
+        pModal.innerHTML = " Please Complete fields !"
     }else{
         validateLogin(inputLoginEmail.value, inputLoginPassword.value);
-        alert("Email : " + inputLoginEmail.value + "\n" +"Password : " + inputLoginPassword.value)
+        modal.style.display = "block";
+        pModal.innerHTML = " Welcome! Login Successfully !"
+        modalContent.classList.remove("modal-error");
+        modalContent.classList.add("modal-success");
     }
 }
 
 
 backButton.onclick = function(e){
     window.location.href="./index.html";
+}
+
+
+//MODAL
+var modal = document.getElementById("myModal");
+var modalContent = document.getElementById("myModalContent");
+var span = document.getElementsByClassName("close")[0];
+var pModal = document.getElementById("p-modal");
+var valueInput = document.createElement("p");
+
+
+span.onclick = function() {
+  modal.style.display = "none";
 }
 
 function validateEmptyFields(){
