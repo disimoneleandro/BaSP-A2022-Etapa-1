@@ -11,8 +11,6 @@ var inputEmailError = document.createElement("p");
 inputEmailError.classList.add("text-error");
 
 
-
-
 inputLoginEmail.onblur = function() {
     if (inputLoginEmail.value == ""){
         inputLoginEmail.classList.add("red-border");
@@ -66,7 +64,7 @@ function validateLogin(email, password){
             alert(data.msg);
         })
         .catch(function(error){
-            alert(error.statusText + "\n" + "¡ Email or Password Invalid !");
+            alert(error.msg + "\n" + "¡ Email or Password Invalid !");
         })
 
 }
@@ -75,12 +73,6 @@ loginButton.onclick = function(e){
     e.preventDefault();
     if(validateEmptyFields() == ""){
         alert("Empty fields, please complete !");
-    // }else if(inputLoginPassword.value == ""){
-    //     alert("Please insert password valid");
-    // }else if(!emailExpression.test(inputLoginEmail.value)){
-    //     alert("Please insert a email correct");
-    // }else if(inputLoginPassword.value.length < 8 || inputLoginPassword.value.length > 20){
-    //     alert("Password needs 8 to 20 characters");
     }else{
         validateLogin(inputLoginEmail.value, inputLoginPassword.value);
         alert("Email : " + inputLoginEmail.value + "\n" +"Password : " + inputLoginPassword.value)

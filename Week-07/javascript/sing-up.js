@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function(){
 
 var inputArray = [];
 var inpName = document.getElementById("name-sing-up");
@@ -151,11 +151,11 @@ inpAdress.onblur = function(){
         inpAdress.insertAdjacentElement("afterend", inpAdressError);
     }else if ( inpAdress.value.length < 5 ){
         inpAdress.classList.add("red-border");
-        inpAdressError.innerHTML = "Adress must be at least 5 characters";
+        inpAdressError.innerHTML = "*Adress must be at least 5 characters";
         inpAdress.insertAdjacentElement("afterend", inpAdressError);
     }else if ( !hasNumbersAndCharAndSpaces(inpAdress.value) ){
         inpAdress.classList.add("red-border");
-        inpAdressError.innerHTML = "Only numbers,letters and spaces";
+        inpAdressError.innerHTML = "*Only numbers,letters and spaces";
         inpAdress.insertAdjacentElement("afterend", inpAdressError);
     }
     else{ inputArray[4] = inpAdress.value;
@@ -310,8 +310,10 @@ function validateSingUp(name, lastName, id, birthDate, phoneNumber, adress, city
             }else{ throw res }
         })
         .catch(function(error){
-            console.log(error)
-            alert(error.errors.msg + "\n" + "¡ Viene error del CATCH !");
+            for(i = 0; i<error.errors.length; i++){
+                alert(error.errors[i].msg);
+            }
+            //alert(error.errors.msg + "\n" + "¡ Viene error del CATCH !");
         })
 
 }
@@ -352,7 +354,8 @@ btnSingUp.onclick = function(e){
                inputArray.includes(inpRepPassword.value))){
                alert("All fields are required !")
     }else{ validateSingUp(inpName.value, inpLastName.value, inpDni.value, inpDateBrth.value,
-                          inpPhoneNum.value, inpAdress.value, inpCity.value, inpAdressCode.value, inpEmail.value, inpPassword.value );
+                          inpPhoneNum.value, inpAdress.value, inpCity.value, inpAdressCode.value,
+                          inpEmail.value, inpPassword.value );
         alert("Name: " + inpName.value + "\n" + "Last Name : " + inpLastName.value + "\n" + "ID: " + inpDni.value + "\n"
                        + "Phone number: " + inpPhoneNum.value + "\n" + "Adress : " + inpAdress.value + "\n"
                        + "City : " + inpCity.value + "\n" + "Adress Code : " + "\n" + "Email : "
@@ -379,7 +382,8 @@ function validateEmptyFields(){
 
 function hasCharsAndSpaces(parameter) {
     for (var i = 0 ; i < parameter.length; i++) {
-      if (!((parameter[i] >= 'a' && parameter[i] <= 'z') || (parameter[i] >= 'A' && parameter[i] <= 'Z' || parameter[i] == ' '))) {
+      if (!((parameter[i] >= 'a' && parameter[i] <= 'z') ||
+            (parameter[i] >= 'A' && parameter[i] <= 'Z' || parameter[i] == ' '))) {
         return false;
       }
     }
