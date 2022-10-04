@@ -307,7 +307,7 @@ function validateSingUp(name, lastName, id, birthDate, phoneNumber, adress, city
                 window.localStorage.setItem("email", res.data.email);
                 window.localStorage.setItem("password", res.data.password);
                 alert(res.msg)
-                }else{ throw res }
+            }else{ throw res }
         })
         .catch(function(error){
             console.log(error)
@@ -350,7 +350,7 @@ btnSingUp.onclick = function(e){
                inputArray.includes(inpEmail.value) &&
                inputArray.includes(inpPassword.value) &&
                inputArray.includes(inpRepPassword.value))){
-        alert("All fields are required !")
+               alert("All fields are required !")
     }else{ validateSingUp(inpName.value, inpLastName.value, inpDni.value, inpDateBrth.value,
                           inpPhoneNum.value, inpAdress.value, inpCity.value, inpAdressCode.value, inpEmail.value, inpPassword.value );
         alert("Name: " + inpName.value + "\n" + "Last Name : " + inpLastName.value + "\n" + "ID: " + inpDni.value + "\n"
