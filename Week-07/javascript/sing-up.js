@@ -329,7 +329,9 @@ btnSingUp.onclick = function(e){
     inpPassword.onblur();
     inpRepPassword.onblur();
     if(validateEmptyFields() == false){
-            alert("Fields are empty !");
+            modal.style.display = "block";
+            modalContent.classList.add("modal-error");
+            pModal.innerHTML = " Please Complete fields !";
             inpName.onblur();
             inpLastName.onblur();
             inpDni.onblur();
@@ -350,15 +352,39 @@ btnSingUp.onclick = function(e){
                inputArray.includes(inpEmail.value) &&
                inputArray.includes(inpPassword.value) &&
                inputArray.includes(inpRepPassword.value))){
-               alert("All fields are required !")
+               modal.style.display = "block";
+               modalContent.classList.add("modal-error");
+               pModal.innerHTML = " All fields are required !";
     }else{ validateSingUp(inpName.value, inpLastName.value, inpDni.value, inpDateBrth.value,
                           inpPhoneNum.value, inpAdress.value, inpCity.value, inpAdressCode.value,
                           inpEmail.value, inpPassword.value );
-        alert("Name: " + inpName.value + "\n" + "Last Name : " + inpLastName.value + "\n" + "ID: " + inpDni.value + "\n"
-                       + "Phone number: " + inpPhoneNum.value + "\n" + "Adress : " + inpAdress.value + "\n"
-                       + "City : " + inpCity.value + "\n" + "Adress Code : " + "\n" + "Email : "
-                       + inpEmail.value + "\n" + "Password : "
-                       + inpPassword.value + "\n" + "Repeat Pass: " + inpRepPassword.value);}
+                          modal.style.display = "block";
+                          pModal.innerHTML = " Welcome! Login Successfully !";
+                          modalContent.classList.remove("modal-error");
+                          pModal.classList.add("p-modal");
+                          validatorName.innerHTML = "Name : " + inpName.value + "\n";
+                          pModal.insertAdjacentElement("afterend", validatorName);
+                          validatorLastName.innerHTML = "LastName : " + inpLastName.value + "\n";
+                          validatorName.insertAdjacentElement("afterend", validatorLastName);
+                          validatorId.innerHTML = "DNI : " + inpDni.value + "\n";
+                          validatorLastName.insertAdjacentElement("afterend", validatorId);
+                          validatorDob.innerHTML = "Date of Birth : " + inpDateBrth.value + "\n";
+                          validatorId.insertAdjacentElement("afterend", validatorDob);
+                          validatorPhoneNumber.innerHTML = "Phone Number : " + inpPhoneNum.value + "\n";
+                          validatorDob.insertAdjacentElement("afterend", validatorPhoneNumber);
+                          validatorAddress.innerHTML = "Address : " + inpAdress.value + "\n";
+                          validatorPhoneNumber.insertAdjacentElement("afterend", validatorAddress);
+                          validatorCity.innerHTML = "City : " + inpCity.value + "\n";
+                          validatorAddress.insertAdjacentElement("afterend", validatorCity);
+                          validatorAddressCode.innerHTML = "Address Code : " + inpAdressCode.value + "\n";
+                          validatorCity.insertAdjacentElement("afterend", validatorAddressCode);
+                          validatorEmail.innerHTML = "Email : " + inpEmail.value + "\n";
+                          validatorAddressCode.insertAdjacentElement("afterend", validatorEmail);
+                          validatorPassword.innerHTML = "Password : " + inpPassword.value + "\n";
+                          validatorEmail.insertAdjacentElement("afterend", validatorPassword);
+                          validatorRePassword.innerHTML = "Repeat Password : " + inpRepPassword.value + "\n";
+                          validatorPassword.insertAdjacentElement("afterend", validatorRePassword);
+        }
 }
 
 
@@ -366,6 +392,38 @@ btnBack.onclick = function(e){
     window.location.href="./index.html";
 }
 
+//MODAL
+var modal = document.getElementById("myModal");
+var modalContent = document.getElementById("myModalContent");
+var span = document.getElementsByClassName("close")[0];
+var pModal = document.getElementById("p-modal");
+var validatorName = document.createElement("p");
+validatorName.classList.add("inp-success-modal");
+var validatorLastName = document.createElement("p");
+validatorLastName.classList.add("inp-success-modal");
+var validatorId = document.createElement("p");
+validatorId.classList.add("inp-success-modal");
+var validatorDob = document.createElement("p");
+validatorDob.classList.add("inp-success-modal");
+var validatorPhoneNumber = document.createElement("p");
+validatorPhoneNumber.classList.add("inp-success-modal");
+var validatorAddress = document.createElement("p");
+validatorAddress.classList.add("inp-success-modal");
+var validatorCity = document.createElement("p");
+validatorCity.classList.add("inp-success-modal");
+var validatorAddressCode = document.createElement("p");
+validatorAddressCode.classList.add("inp-success-modal");
+var validatorEmail = document.createElement("p");
+validatorEmail.classList.add("inp-success-modal");
+var validatorPassword = document.createElement("p");
+validatorPassword.classList.add("inp-success-modal");
+var validatorRePassword = document.createElement("p");
+validatorRePassword.classList.add("inp-success-modal");
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
 function validateEmptyFields(){
     if(inpName.value == "" && inpLastName.value == "" && inpDni.value == "" &&
@@ -466,4 +524,5 @@ function hasNumbersAndCharAndSpaces(parameter) {
 
 
 }
+
 

@@ -123,3 +123,22 @@
     font-weight: bold;
 
 }
+
+.p-modal{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #41426f;
+    background-color: rgb(72, 156, 72);
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.inp-success-modal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #373867;
+    font-weight: bold;
+}

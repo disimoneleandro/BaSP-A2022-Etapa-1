@@ -95,7 +95,6 @@ var modal = document.getElementById("myModal");
 var modalContent = document.getElementById("myModalContent");
 var span = document.getElementsByClassName("close")[0];
 var pModal = document.getElementById("p-modal");
-var valueInput = document.createElement("p");
 
 
 span.onclick = function() {
@@ -109,9 +108,6 @@ function validateEmptyFields(){
         return true;
     }
 }
-
-
-
 
 }
 
