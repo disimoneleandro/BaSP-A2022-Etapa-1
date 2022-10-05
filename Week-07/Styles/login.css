@@ -147,6 +147,7 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 .modal-success {
   background-color: rgb(72, 156, 72);
   color: white;

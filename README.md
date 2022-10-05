@@ -36,6 +36,7 @@ Five-Week : This week we start practicing with javascript exercises and repair t
 
 Six-Week : This week javascript files were added with the logic of the login and sing up sections with their respective validations.
 
+Seven-Week : This week the validations were made from a rest api using fetch and localStorage. Error modals were also added.
 
 ```
 #
@@ -45,4 +46,4 @@ This web development was created based on a bootcamp exercise practice obtained 
 ```
 ### GitHub Pages :
 
-https://disimoneleandro.github.io/BaSP-A2022-Etapa-1/Week-06/views/
+https://disimoneleandro.github.io/BaSP-A2022-Etapa-1/Week-07/views/index.html
